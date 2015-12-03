@@ -3,6 +3,8 @@
 
     <string name="x1_string">x1</string>
     <string name="x2_string">x2</string>
+    <string name="dx1_string">Delta x1</string>
+    <string name="dx2_string">Delta x2</string>
     <string name="k_string">k</string>
     <string name="m_string">m</string>
     <string name="a_string">a</string>
@@ -13,6 +15,8 @@
     <string name="ed_m_string"></string>
     <string name="ed_x2_string"></string>
     <string name="ed_x1_string"></string>
+    <string name="ed_dx2_string"></string>
+    <string name="ed_dx1_string"></string>
     <string name="action_settings">Settings</string>
 
     <color name="cor_botao">#ffaa24</color>

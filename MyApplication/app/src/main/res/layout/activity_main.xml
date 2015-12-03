@@ -92,12 +92,49 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+
     <TextView
+        android:text="@string/dx1_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dx1_s"
+        android:layout_below="@+id/m_edit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:text="@string/ed_dx1_string"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dx1_edit"
+        android:layout_below="@+id/dx1_s"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/dx2_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dx2_s"
+        android:layout_below="@+id/dx1_edit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:text="@string/ed_dx2_string"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dx2_edit"
+        android:layout_below="@+id/dx2_s"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+   <!-- <TextView
         android:text="@string/d_string"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/d_s"
-        android:layout_below="@+id/m_edit"
+        android:layout_below="@+id/dx2_edit"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -108,10 +145,7 @@
         android:id="@+id/d_edit"
         android:layout_below="@+id/d_s"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-
-
+        android:layout_alignParentStart="true" /> -->
 
     <Button
         android:text="ok"
@@ -120,8 +154,9 @@
         android:id="@+id/btOk"
         android:background="@color/cor_botao"
         android:textColor="@color/cor_letra"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/dx2_edit"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
 </RelativeLayout>
+
